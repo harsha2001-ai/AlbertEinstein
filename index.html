@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Einstein Portfolio</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Albert Einstein</h1>
+        <div class="container">
+            <nav id="Navbar">
+                <a href="#" onclick="scrolltosection('Navbar')">Home</a>
+                <a href="#" onclick="scrolltosection('sidebar1')">About</a>
+                <a href="#" onclick="scrolltosection('sidebar2')">Publications</a>
+                <a href="#" onclick="scrolltosection('Hobbies')">Hobbies</a>
+                <a href="#" onclick="scrolltosection('image')">Images</a>
+                <a href="#" onclick="scrolltosection('footer')">Blogs</a>
+            </nav>
+            <div id="sidebar1">
+                <img src="Einstein image.jpeg" alt="Profile" width="150px">
+                <h2>Albert Einstein</h2>
+            </div>
+            <header>
+                <h1>About</h1>
+                <p>Albert Einstein (born March 14, 1879, Ulm, Württemberg, Germany—died April 18, 1955, Princeton, New Jersey, U.S.) German-born physicist who developed the special and general theories of relativity and won the Nobel Prize for Physics in 1921 for 
+                    his explanation of the photoelectric effect. Einstein is generally considered
+                     the most influential physicist of the 20th century.... <a href="https://en.wikipedia.org/wiki/Albert_Einstein">Read more about me at wikipedia.com</a></p>
+            </header>
+            <div id="sidebar2">
+                <h2>Published Papers</h2>
+                <div class="paper">
+                    <img src="paper1.jpeg" alt="paper1">
+                    <a href="https://en.wikipedia.org/wiki/Relativity:_The_Special_and_the_General_Theory" onclick="openLink(this.href);">The Special and the General Theory</a>
+                </div>
+                <div class="paper">
+                    <img src="paper2.jpeg" alt="paper2">
+                    <a href="https://www.moesbooks.com/pages/books/91722/albert-einstein/the-theory-of-relativity-two-papers-published-in-1905-on-the-electrodynamics-of-moving-bodies-and" onclick="openLink(this.href);">The Theory of relativity</a>
+                </div>
+                <div class="paper">
+                    <img src="paper3.jpeg" alt="paper3">
+                    <a href="https://pangobooks.com/titles/the-principle-of-relativity" onclick="openLink(this.href);">The Principle of relativity</a>
+                </div>
+                <div class="paper">
+                    <img src="paper4.jpg" alt="paper4">
+                    <a href="https://pangobooks.com/titles/the-principle-of-relativity" onclick="openLink(this.href);">The Challenges</a>
+                    </div>
+                    <a id="Morepapers" href="https://guides.loc.gov/einstein-annus-mirabilis/1905-papers" onclick="openLink(this.href);">For More Published Papers.....</a>
+            </div>
+            <div id="Hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Solving Puzzles</li>
+                    <li>Reading Books about nature</li>
+                    <li>Discovering new things</li>
+                    <li>Exploring</li>
+                    
+                </ul>
+                <a id="Morepapers" href="https://www.quora.com/What-were-Einstein%E2%80%99s-hobbies" onclick="openLink(this.href);">  Want to know more about Albert Einstein Hobbies!!....</a>
+            </div>
+            <h1 id="image">My Images</h1>
+       
+            <div class="gallery">
+               
+                    <img src="image1.jpeg" alt="Image 1">
+                </a>
+            </div>
+            
+            <div class="gallery">
+              
+                    <img src="image2.jpeg" alt="Image 2">
+                </a>
+            </div>
+            
+            <div class="gallery">
+                
+                    <img src="image3.jpeg" alt="Image 3">
+                </a>
+            </div>
+            
+            <div class="gallery">
+               
+                    <img src="image4.jpeg" alt="Image 4">
+                </a>
+            </div>
+            
+            <div class="gallery">
+               
+                <img src="image5.jpeg" alt="Image 1">
+            </a>
+        </div>
+        
+        <div class="gallery">
+          
+                <img src="image6.jpeg" alt="Image 2">
+            </a>
+        </div>
+        
+        <div class="gallery">
+            
+                <img src="image7.jpeg" alt="Image 3">
+            </a>
+        </div>
+        
+        <div class="gallery">
+           
+                <img src="image8.jpeg" alt="Image 4">
+            </a>
+        </div>
+            
+            <div id="footer">
+                <h2>Blogs</h2>
+                <ul style="list-style-type:square;">
+                    <li><a href="http://www.phys.unsw.edu.au/einsteinlight/" onclick="openLink(this.href);">A brief illumination of relativity</a></li>
+                    <li><a href="http://archive.ncsa.uiuc.edu/Cyberia/Expo/science-pavilion.html" onclick="openLink(this.href);">Pavilon of Science and Industry</a></li>
+                    <li><a href="http://imagine.gsfc.nasa.gov/" onclick="openLink(this.href);">Imagine the Universe!</a></li>
+                    <li><a href="http://www.superstringtheory.com/" onclick="openLink(this.href);">The official string theory website</a></li>
+                </ul>
+                <a id="Moreblogs" href="https://www.einstein-online.info/en/essentials/links/" onclick="openLink(this.href);">  Want to know more Albert Einstein Blogs!!....</a>
+            </div>
+    </div>
+    </body>
+</html>
